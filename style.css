@@ -1,0 +1,455 @@
+/***************************************************************BASIC SETUP******************************************************/
+@font-face{
+	src:url('fonts/Teko-Bold.ttf') ;
+	font-family: rubel ;
+}
+@font-face{
+	src:url(fonts/Prompt-Light.ttf) ;
+	font-family: kanij ;
+}
+.container {
+	width: 95% ;
+	margin: auto;
+}
+/*******************************************************START HEADER AREA DESIGN******************************************************/
+.header-area {
+	padding: 60px 0 ;
+	background: linear-gradient(45deg, pink 50% , gray 50%) ;
+}
+.header-content .logo-area {
+	width: 30% ;
+}
+.header-content .logo-area .icon {
+	display: none
+}
+.header-content .logo-area a {
+	margin: 0 ;
+	margin-left: 5px ;
+	letter-spacing: 5px ;
+	font-family: kanij ;
+	font-size: 30px ;
+	color: #fff ;
+}
+.header-content .menu-area {
+	float: right;
+	width: 70% ;
+	margin-top: -30px;
+}
+.header-content .menu-area ul {
+	float: right;
+}
+.header-content .menu-area ul li {
+	display: inline-block;
+}
+.header-content .menu-area ul li a {
+	text-decoration: none;
+	margin-left: 30px ;
+	letter-spacing: 2px ;
+	border: 2px solid #bf4040 ;
+	border-radius: 25px ;
+	padding: 10px 20px ;
+	color: #fff ;
+}
+.header-content .menu-area ul .active a {
+	color: 	#bf4040 ;
+}
+.header-content .menu-area ul li a:hover {
+	color: #fff ;
+	background: #bf4040 ;
+}
+.header-content .row {
+	width: 45% ;
+	float: left;
+	overflow: hidden;
+	padding: 0px 20px 20px 20px ;
+	margin-top: 125px;
+}
+.header-content .row h1 {
+	font-size: 60px ;
+	font-family: rubel ;
+	line-height: 1 ;
+	margin: 0 ;
+	font-weight: 400 ;
+}
+.header-content .row p {
+	font-size: 20px ;
+	text-align: justify;
+	margin-bottom: 30px ;
+	line-height: 1.5 ;
+}
+.header-content .row a {
+	text-decoration: none;
+	letter-spacing: 2px ;
+	border: 2px solid 	#bf4040 ;
+	border-radius: 25px ;
+	padding: 12px 25px ;
+	color: #fff ;
+	text-transform: uppercase;
+	background: #bf4040 ;
+	font-size: 20px ;
+	margin-left: 35%;
+}
+.header-content .row a:hover {
+	color: black ;
+	background: #fff ;
+}
+.header-content img {
+	padding: 130px 0px 50px 75px ;
+}
+/*******************************************************END HEADER AREA DESIGN******************************************************/
+/*******************************************************START SERVICE AREA DESIGN***************************************************/
+.service-area {
+	background: gray ; 
+	padding: 50px 0px ;
+}
+.service-content .row {
+	text-align: center;
+}
+.service-content .row h2 {
+	font-size: 30px ;
+	color: 	#fff ;
+	margin: 0 ;
+}
+.service-content .row p {
+	text-align: justify;
+	font-size: 20px ;
+	color: 	black ;
+}
+.service-content .row .col-1-3 {
+	width: 30% ;
+	float: left;
+	padding: 10px 10px ;
+}
+
+.service-content .row .col-2-3 {
+	width: 30% ;
+	float: left;
+	overflow: hidden;
+	padding: 10px 10px ;
+}
+.service-content .row .col-3-3 {
+	width: 30% ;
+	overflow: hidden;
+	padding: 10px 10px ;
+}
+/*******************************************************END SERVICE AREA DESIGN******************************************************/
+/*******************************************************START CLIENT AREA DESIGN*****************************************************/
+.client-area {
+	background: linear-gradient( orange  , pink , blue ) ;
+	padding: 20px 0 140px 0 ;
+}
+.client-content h2 {
+	font-size: 40px ;
+	text-align: center;
+	padding-bottom: 30px ;
+}
+.client-content img {
+	width: 100px ;
+	height: 100px ;
+	border-radius: 50% ;
+	margin-left: 35% ;
+}
+.client-content img:hover {
+	transform: rotate(360deg);
+	transition: 2s ;
+}
+
+.client-content .row .col-1-3 {
+	width: 27% ;
+	float: left;
+	padding: 10px 20px ;
+	background: #fff ;
+	border-radius: 10px ;
+	margin-right: 30px ;
+	box-shadow: 0px 15px 5px 5px gainsboro;
+}
+.client-content .row .col-1-3:hover{
+	border: 4px solid red ;
+}
+.client-content .row  p {
+	padding: 30px 50px ;
+	text-align: justify;
+	line-height: 2 ;
+	font-style: italic;
+	font-size: 20px ;
+}
+.client-content .row h3 {
+	text-align: center;
+}
+.client-content .row .col-2-3 {
+	width: 28% ;
+	float: left;
+	overflow: hidden;
+	padding: 10px 20px ;
+	background: #fff ;
+	border-radius: 10px ;
+	margin-right: 30px ;
+	border: 4px solid red ;
+	box-shadow: 0px 15px 5px 5px gainsboro;
+}
+.client-content .row .col-3-3 {
+	width: 27% ;
+	overflow: hidden;
+	padding: 10px 20px ;
+	background: #fff ;
+	border-radius: 10px ;
+	box-shadow: 0px 15px 5px 5px gainsboro;
+
+}
+.client-content .row .col-3-3:hover{
+	border: 4px solid red ;
+}
+/*******************************************************END CLIENT AREA DESIGN******************************************************/
+/*******************************************************START INTRO AREA DESIGN******************************************************/
+.intro-area {
+	padding: 100px 0px ;
+	background: linear-gradient( #bf4040, pink , #bf4040) ;
+}
+.intro-content .row .col-1-2 {
+	width: 50% ;
+	float: left;
+}
+.intro-content .row .col-1-2 .box {
+	width: 270px ;
+	height: 330px ;
+	border: 4px solid red ;
+	margin-left: 275px ;
+	margin-top: 11px ;
+	border-radius: 12px ;
+	}
+.intro-content .row .col-1-2 img {
+	width: 270px ;
+	height: 330px ;
+	border-radius: 10px ;
+	float: right ;
+	margin-right: 100px;
+}
+.intro-content .row .col-2-2 {
+	width: 35% ;
+	overflow: hidden;
+}
+.intro-content .row .col-2-2 h6 {
+	margin: 0 ;
+	font-size: 24px ;
+	line-height: 1.5 ;
+	font-weight: 100 ;
+}
+.intro-content .row .col-2-2 p {
+	font-size: 20px;
+	font-weight: 100;
+	line-height: 1.3;
+}
+/*********************************************************END INTRO AREA DESIGN******************************************************/
+/*******************************************************START PACKAGE AREA DESIGN******************************************************/
+.package-area {
+	padding: 20px 0px 120px 0px ;
+	background: url(img/img6.jpg) center center ;
+	background-repeat: no-repeat;
+}
+.package-content   {
+	text-align: center;
+}
+.package-content h2 {
+	font-size: 38px ;
+	color: yellow ;
+}
+.package-content .row h4 {
+	font-size: 25px ;
+}
+.package-content .row h5 {
+	font-size: 25px ;
+	font-weight: 500 ;
+	line-height: 0 ;
+}
+.package-content .row h6 {
+	font-size: 25px ;
+	font-weight: 500 ;
+	line-height: 0 ;
+}
+.package-content .row a {
+	text-decoration: none;
+	letter-spacing: 2px ;
+	border: 2px solid 	#bf4040 ;
+	border-radius: 25px ;
+	padding: 12px 55px ;
+	color: black ;
+	text-transform: uppercase;
+	font-size: 20px ;
+}
+.package-content .row .col-1-3 {
+	width: 27% ;
+	float: left;
+	padding: 10px 20px 40px 20px ;
+	background: #fff ;
+	border-radius: 10px ;
+	margin-right: 30px ;
+	box-shadow: 0px 15px 5px 5px gainsboro;
+}
+.package-content .row .col-1-3 a:hover {
+	background: #bf4040 ;
+	color: #fff ;
+}
+.package-content .row .col-1-3:hover{
+	border: 4px solid red ;
+}	
+.package-content .row .col-2-3 {
+	width: 28% ;
+	float: left;
+	padding: 10px 20px 60px 10px ;
+	border-radius: 10px ;
+	margin-right: 30px ;
+	box-shadow: 0px 15px 5px 5px gainsboro;
+	border: 4px solid red ;
+	background: #fff ;
+}
+.package-content .row .col-2-3 a {
+	background: #bf4040 ;
+	color: #fff ;
+}
+.package-content .row .col-3-3 {
+	width: 27% ;
+	overflow: hidden;
+	padding: 10px 20px 40px 20px ;
+	background: #fff ;
+	border-radius: 10px ;
+	box-shadow: 0px 15px 5px 5px gainsboro;
+}
+.package-content .row .col-3-3 a:hover {
+	background: #bf4040 ;
+	color: #fff ;
+}
+.package-content .row .col-3-3:hover{
+	border: 4px solid red ;
+}
+/*******************************************************END PACKAGE AREA DESIGN******************************************************/
+/*******************************************************START CHOSEME AREA DESIGN******************************************************/
+.choseme-area {
+	background: gray ;
+	padding: 30px 0px 40px 0px ;
+}
+.choseme-area:hover {
+	background: blue ;
+}
+.choseme-content .row {
+	text-align: center;
+}
+.choseme-content h2 {
+	font-size: 40px ;
+	text-align: center;
+	color: red ;
+	line-height: 0 ;
+	letter-spacing: 10px ;
+	font-style: italic;
+
+}
+.choseme-content h3 {
+	font-size: 30px ;
+	font-weight: 500 ;
+	line-height: 0.5 ;
+}
+.choseme-content .row p {
+	text-align: justify;
+	font-size: 22px ;
+	line-height: 1.5 ;
+	color: yellow ;
+}
+.choseme-content .row .col-1-3 {
+	width: 30% ;
+	float: left;
+	padding: 10px 20px ;
+}
+
+.choseme-content .row .col-2-3 {
+	width: 30% ;
+	float: left;
+	overflow: hidden;
+	padding: 10px 20px ;
+}
+
+.choseme-content .row .col-3-3 {
+	width: 30% ;
+	overflow: hidden;
+	padding: 10px 20px ;
+}
+/*******************************************************END CHOSEME AREA DESIGN******************************************************/
+/*******************************************************START PROJECT AREA DESIGN******************************************************/
+.project-area {
+	padding: 60px 0px ;
+	background: url(img/img8.jpg) center center ;
+	text-align: center;
+	color: white  ;
+}
+.project-content .row h5 {
+	padding-bottom: 10px ;
+	font-size: 25px;
+	line-height: 0.5;
+	font-weight: 500;
+}
+.project-content .row h4 {
+	padding-top: 30px ;
+	margin: 0 ;
+	line-height: 0.5 ;
+	font-size: 40px ;
+}
+.project-content .row .col-1-3 {
+	width: 30% ;
+	float: left;
+	padding: 0px 10px ;
+	background: red ;
+	border-radius: 5px ;
+	box-shadow: 0px 0px 5px 5px white;
+	margin-right: 20px ;
+}
+.project-content .row .col-1-3:hover {
+	background: green ;
+}
+.project-content .row .col-2-3 {
+	width: 30% ;
+	float: left;
+	overflow: hidden;
+	padding: 0px 10px ;
+	background: red ;
+	border-radius: 5px ;
+	box-shadow: 0px 0px 5px 5px white;
+	margin-right: 20px ;
+}
+.project-content .row .col-2-3:hover {
+	background: green ;
+}
+.project-content .row .col-3-3 {
+	width: 30% ;
+	overflow: hidden;
+	padding: 0px 10px ;
+	background: red ;
+	border-radius: 5px ;
+	box-shadow: 0px 0px 5px 5px white;
+}
+.project-content .row .col-3-3:hover {
+	background: green ;
+}
+/*******************************************************END PROJECT AREA DESIGN******************************************************/
+/*******************************************************START FOOTER AREA DESIGN******************************************************/
+.footer-area {
+	padding: 10px 0px ;
+	background: gray ;
+	text-align: center;
+}
+.footer-area hr {
+	margin: 0 ;
+}
+.footer-area a {
+	text-decoration: none;
+	color: white ;
+} 
+.footer-area a:hover {
+	color: lime ;
+} 
+.footer-area ul li {
+	display: inline-block;
+	padding-right: 30px ;
+}
+.portfolio-area {
+	background: red ;
+}
+/*******************************************************END FOOTER AREA DESIGN******************************************************/
+/******************************************************START CONTACT PAGE DESIGN******************************************************/
